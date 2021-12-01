@@ -18,7 +18,7 @@
 <h1>My "To Do" List: </h1>
 <ul>
 	{#each toDoList as item}
-	<li key={item}>{item}</li>
+	<li>{item}</li>
 	{/each}
 </ul>
 <!--End of HTML markup-->
